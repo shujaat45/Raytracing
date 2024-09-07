@@ -1,0 +1,12 @@
+
+gax = geoaxes(Basemap="satellite");
+latlimits = [2.92954 2.92954]
+lonlimits = [101.78214 101.78214];
+geolimits(latlimits,lonlimits);
+geocenter = [mean(latlimits) mean(lonlimits) 0];
+refHeight = 400;
+hold on
+
+interactiveROI = false;
+load Malaysi-latest.osm
+helperPlotTakeoffROILanding(gax,takeoffLat,takeoffLon,landLat,landLon,llapoints);
