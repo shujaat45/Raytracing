@@ -3,7 +3,7 @@ Title: Ray Tracing Code for Rural Areas with Material Interferences, Weather, an
 
 Note:
 
-The code provided is a ray tracing simulation specifically designed for rural areas. It incorporates various factors such as material interferences, weather conditions, and foliage losses to accurately model the propagation of signals in such environments. The code allows for the measurement of received signal strength at different distances for up to 100 users, and it can be easily extended to support the generation of random users exceeding N.
+The code provided is a ray tracing simulation specifically designed for rural areas but you can used for any scenerio based on your setup. It incorporates various factors such as material interferences, weather conditions, and foliage losses to accurately model the propagation of signals in such environments. The code allows for the measurement of received signal strength at different distances for up to N users, and it can be easily extended to support the generation of random users exceeding N.
 
 To utilize the code, you will need to follow these steps:
 
